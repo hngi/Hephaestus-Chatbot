@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_small"
+        android:layout_gravity="end"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/league_mono_font"
+        android:text="About"
+        android:textAlignment="center"
+        android:textColor="#00C8AA"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:textSize="24"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/league_mono_font"
+        android:text="Budget tracker is an online management tool which helps
+in keeping track of your expenses whereby the total budget
+is allocated to a category of items based on a scale of
+preference by the user while ensuring that your finances is
+managed effectively from your system, mobile phones or ipad. "
+        android:textAlignment="viewStart"
+        android:textColor="#2B5761"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/league_mono_font"
+        android:text=" With the introduction of our Hephbot, you can easily obtain details of your budget directly, get answers to FAQs, and get updates on the latest updates available."
+        android:textAlignment="viewStart"
+        android:textColor="#2B5761"
+        android:textSize="16sp" />
+</LinearLayout>
+
+
+
+
