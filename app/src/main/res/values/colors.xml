@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="message_status_icon_colors" tools:override="true">#00C8AA</color> // Message status icons' color
+    <color name="applozic_theme_color" tools:override="true">#FFB3E5FC</color>     // Theme color
+    <color name="applozic_theme_color_primary" tools:override="true">#008577</color>
+    <color name="applozic_theme_color_primary_dark" tools:override="true">#00574B</color>
+    <color name="applozic_theme_color_accent" tools:override="true">#3F51B5</color>
+    <color name="default_start_new_button_color" tools:override="true">#FF4081</color> // Default start new conversation button's color
 </resources>

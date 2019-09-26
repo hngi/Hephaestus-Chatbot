@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00C8AA"
+    tools:context=".splashscreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@drawable/group" />
+
+    <TextView
+        android:id="@+id/hephbot"
+        android:layout_width="202dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="173dp"
+        android:text="HephBot"
+        android:textSize="48sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/for_budgeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="386dp"
+        android:text="For Budget App"
+        android:textSize="24sp"
+        android:textColor="#2B5761"
+        android:gravity="center"
+        />
+</RelativeLayout>
