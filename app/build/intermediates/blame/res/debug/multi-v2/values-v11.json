@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hp\\AndroidStudioProjects\\HEPHAS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\1aa084ab26bd43d2338d4faa73bd2d63\\jetified-kommunicateui-1.9.0\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,3,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,143,288",
+                        "endLines": "2,5,6",
+                        "endColumns": "87,12,42",
+                        "endOffsets": "138,283,326"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -7,31 +7,16 @@
     android:background="#E5E5E5"
     tools:context=".AboutHephas">
 
-
-    <TextView
-        android:id="@+id/about"
-        android:layout_width="72dp"
-        android:layout_height="29dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="26dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="51dp"
-        android:text="About"
-        android:textSize="24sp"
-        android:textColor="#00C8AA"
-        android:gravity="top"
-        />
-
     <TextView
         android:id="@+id/budget_trac"
         android:layout_width="wrap_content"
-        android:layout_height="488dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="40dp"
         android:text="@string/budget_trac"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textColor="#2B5761"
         android:gravity="top"
         />

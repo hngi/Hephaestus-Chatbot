@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton butt1=(ImageButton)findViewById(R.id.btn1);
+        Button butt1=(Button)findViewById(R.id.btn1);
         Button butt2=(Button)findViewById(R.id.btn2);
 
         butt1.setOnClickListener(new View.OnClickListener() {
