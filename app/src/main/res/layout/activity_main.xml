@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="?android:selectableItemBackground"
         android:src="@drawable/group"
         tools:visibility="gone" />
 
@@ -27,26 +28,30 @@
         tools:ignore="HardcodedText"
         >
 
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
 
-        <ImageButton
+
+        <Button
             android:id="@+id/btn1"
-            android:layout_width="200dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:background="?android:selectableItemBackground"
-            android:src="@drawable/union"
+            android:textSize="24sp"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/union"
+            android:background="@drawable/button_design"
             android:text="CHAT HERE" />
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="?android:selectableItemBackground"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_design"
+            android:padding="4dp"
+            android:drawableLeft="@drawable/question"
+            android:text="ABOUT"
             android:textColor="#FFFFFF"
-            android:text="ABOUT" />
+            android:textSize="24sp" />
 
     </LinearLayout>
 </FrameLayout>

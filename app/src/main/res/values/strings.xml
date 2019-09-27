@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">HEPHAS</string>
-    <string name="budget_trac">Budget tracker is an online management tool which helps in keeping track of your expenses whereby the total budget is allocated to a category of items based on a scale of preference by the user while ensuring that your finances is managed effectively from your system, mobile phones or ipad. With the introduction of our Hephbot, you can easily obtain details of your budget directly, get answers to FAQs, and get updates on the latest updates available.</string>
+    <string name="budget_trac">Hephas Chatbot was created by Team Hephaestus, Hephas enables you to get answers to FAQs on our Budget Traker app and also get updates on the latest updates available on our Budget Tracker app. Budget tracker is an online management tool which helps in keeping track of your expenses whereby the total budget is allocated to a category of items based on a scale of preference by the user while ensuring that your finances is managed effectively from your system, mobile phones or ipad.</string>
 </resources>

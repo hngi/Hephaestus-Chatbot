@@ -12,14 +12,13 @@ import io.kommunicate.callbacks.KmCallback;
 
 public class Chat extends AppCompatActivity {
     final Context context = this;
+    final Context activityContext = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Kommunicate.init(context,"3c365368a5a503b3e5cbbb9112604b9e2");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
-
-        final Context activityContext = this;
 
         new KmConversationBuilder(activityContext).launchConversation(new KmCallback() {
             @Override

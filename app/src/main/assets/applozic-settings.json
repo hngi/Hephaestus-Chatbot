@@ -111,9 +111,9 @@
   },
   "attachmentOptions": {
     ":location": false,
-    ":camera": true,
-    ":file": true,
-    ":audio": true
+    ":camera": false,
+    ":file": false,
+    ":audio": false
   },
   "editTextHintText:": "Type your message...",
   "replyMessageLayoutSentMessageBackground": "#C0C0C0",
