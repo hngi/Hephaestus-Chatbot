@@ -35,11 +35,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:padding="4dp"
+            android:padding="8dp"
             android:textColor="@color/white"
             android:drawableLeft="@drawable/union"
             android:background="@drawable/button_design"
-            android:text="CHAT HERE" />
+            android:text="CHAT WITH HEPHAS" />
 
         <Button
             android:id="@+id/btn2"
@@ -47,9 +47,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@drawable/button_design"
-            android:padding="4dp"
+            android:padding="8dp"
             android:drawableLeft="@drawable/question"
-            android:text="ABOUT"
+            android:text="ABOUT HEPHAS"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
