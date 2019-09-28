@@ -2,7 +2,7 @@
   "customMessageBackgroundColor": "#e6e5ec",
   "sentMessageBackgroundColor": "#00C8AA",
   "receivedMessageBackgroundColor": "#e6e5ec",
-  "sendButtonBackgroundColor": "#5c5aa7",
+  "sendButtonBackgroundColor": "#00C8AA",
   "sentMessageCreatedAtTimeColor": "#ede6e6",
   "receivedMessageCreatedAtTimeColor": "#8a8686",
   "attachmentIconsBackgroundColor": "#00C8AA",
