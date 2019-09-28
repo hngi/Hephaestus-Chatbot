@@ -1904,6 +1904,7 @@ id parent_layout
 id parent_matrix
 id participantsCardView
 id paymentWebView
+id pbar
 id percent
 id phone
 id phoneNumberEt
@@ -3274,6 +3275,7 @@ style actionDropDownStyle
 style addressButton
 style itemTextStyle_AppTheme
 style listViewActivatedStyle
+style progressBar
 style quickContactBadgeStyle
 style searchTextHiglight
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle

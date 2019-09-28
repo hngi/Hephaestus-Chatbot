@@ -16,10 +16,11 @@ public class Chat extends AppCompatActivity {
 
     /**The overide below helps the app communicate with Kommunicate.io with the Kommunicate API key**/
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         Kommunicate.init(context,"3c365368a5a503b3e5cbbb9112604b9e2");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splashscreen);
+        setContentView(R.layout.activity_chat);
 
         /*The below code launches the bot activiy*/
 
@@ -28,6 +29,8 @@ public class Chat extends AppCompatActivity {
             public void onSuccess(Object message) {
                 Log.d("Conversation", "Success : " + message);
             }
+
+
 
             @Override
             public void onFailure(Object error) {
