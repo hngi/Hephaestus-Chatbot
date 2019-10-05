@@ -54,12 +54,12 @@
   "showActionDialWithOutCalling": false,
   "profileLogoutButton": false,
   "userProfileFragment": true,
-  "messageSearchOption": false,
+  "messageSearchOption": true,
   "hideGroupAddMembersButton": false,
   "hideGroupNameUpdateButton": false,
   "hideGroupExitButton": false,
   "hideGroupRemoveMemberOption": false,
-  "profileOption": false,
+  "profileOption": true,
   "broadcastOption": false,
   "restrictedWordMessage": " Please don't use restricted word",
   "hideAttachmentButton": false,
@@ -113,14 +113,15 @@
     ":location": false,
     ":camera": false,
     ":file": false,
-    ":audio": false
+    ":audio": true
   },
+
   "editTextHintText:": "Type your message...",
   "replyMessageLayoutSentMessageBackground": "#C0C0C0",
   "replyMessageLayoutReceivedMessageBackground": "#00C8AA",
   "groupInfoScreenVisible": true,
   "forwardOption": false,
-  "recordButton": false,
+  "recordButton":false,
   "disableGlobalStoragePermission": true,
   "messageTemplate": {
     "isEnabled": false,

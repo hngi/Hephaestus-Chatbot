@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:padding="8dp"
-            android:textColor="@color/white"
+            android:textColor="#ffffff"
             android:drawableLeft="@drawable/union"
             android:background="@drawable/button_design"
             android:text="CHAT WITH HEPHAS" />

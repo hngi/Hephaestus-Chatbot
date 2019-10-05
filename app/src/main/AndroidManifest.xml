@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splashscreen"
+        <activity android:name=".FeedbackActivity"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".splashscreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,10 +29,9 @@
         <activity
             android:name=".Chat"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity"
-            android:label="HEPHAS BOT">
-
-        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="HEPHAS BOT" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

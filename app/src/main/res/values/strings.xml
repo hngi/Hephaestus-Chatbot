@@ -1,4 +1,36 @@
 <resources>
     <string name="app_name">HEPHAS</string>
     <string name="budget_trac">Hehpas is a chatbot created by Team Hephaestus. It was built to ease your online experience by answering all questions you may have about the Heph Budget Tracker.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="feedbackname">Name</string>
+    <string name="feedbackemail">Enter Email</string>
+    <string name="feedbacktype1">Praise</string>
+    <string name="feedbacktype2">Gripe</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
+    <string name="feedbacktype">Feedback type</string>
+    <string name="feedbackbody">Type Message</string>
+    <string name="feedbackresponse">Would like an email response?</string>
+    <string name="feedbackbutton">Send FeedBack</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
 </resources>
