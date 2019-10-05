@@ -6,11 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="vertical"
+    android:background="#e8eaf6"
     tools:context=".FeedbackActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:orientation="vertical">
 
         <!--Put form controls here-->
@@ -18,30 +20,52 @@
             android:id="@+id/TextViewTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
             android:text="Send your Feedback"
             android:textAlignment="center"
-            android:textSize="10pt"></TextView>
+            android:textSize="10pt" />
 
         <EditText
             android:id="@+id/EditTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/feedbackname"
-            android:inputType="textPersonName"></EditText>
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_blck"/>
 
         <EditText
             android:id="@+id/EditTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/feedbackemail"
-            android:inputType="textEmailAddress"></EditText>
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_blck"/>
 
         <Spinner
             android:id="@+id/SpinnerFeedbackType"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:entries="@array/feedbacktypelist"
-            android:prompt="@string/feedbacktype"></Spinner>
+            android:prompt="@string/feedbacktype"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_blck"/>
 
         <EditText
             android:id="@+id/EditTextFeedbackBody"
@@ -49,6 +73,12 @@
             android:hint="@string/feedbackbody"
             android:inputType="textMultiLine"
             android:lines="5"
+            android:background="@drawable/edittext_blck"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="16dp"
             android:layout_width="fill_parent">
         </EditText>
 
@@ -56,16 +86,22 @@
             android:id="@+id/CheckBoxResponse"
             android:layout_height="wrap_content"
             android:text="@string/feedbackresponse"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="16dp">
         </CheckBox>
 
         <Button
             android:id="@+id/ButtonSendFeedback"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#3F51B5"
             android:text="@string/feedbackbutton"
-            android:onClick="sendFeedback"
-            android:layout_width="fill_parent">
-        </Button>
+            android:textColor="#ffffff"/>
 
     </LinearLayout>
 

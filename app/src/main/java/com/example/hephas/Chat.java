@@ -241,9 +241,9 @@ public class Chat extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
-            case R.id.clear:
-
-                return true;
+//            case R.id.clear:
+//
+//                return true;
             case R.id.Settings:
                             startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
                             return  true;

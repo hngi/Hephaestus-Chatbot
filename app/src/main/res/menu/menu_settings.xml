@@ -10,10 +10,10 @@
         android:title="Search"
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/clear"
-        android:icon="@android:drawable/ic_notification_clear_all"
-        android:title="Clear" />
+<!--    <item-->
+<!--        android:id="@+id/clear"-->
+<!--        android:icon="@android:drawable/ic_notification_clear_all"-->
+<!--        android:title="Clear" />-->
     <item
         android:id="@+id/Settings"
         android:title="Settings" />
