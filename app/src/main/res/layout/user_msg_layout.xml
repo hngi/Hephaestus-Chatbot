@@ -26,17 +26,7 @@
             android:layout_marginTop="4dp"
             android:padding="12dp"
             android:text="abcdefgh"
-            android:textSize="18sp" />
-
-        <FrameLayout
-            android:id="@+id/container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
-
-        </FrameLayout>
-
-
+            android:textSize="16sp" />
 
     </LinearLayout>
 
