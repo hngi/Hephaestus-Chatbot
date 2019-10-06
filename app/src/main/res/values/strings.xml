@@ -27,6 +27,7 @@
     <string name="feedbackbody">Type Message</string>
     <string name="feedbackresponse">Would like an email response?</string>
     <string name="feedbackbutton">Send FeedBack</string>
+    <string name="feedbackSubject">Title of message</string>
 
     <!-- Preference Titles -->
 

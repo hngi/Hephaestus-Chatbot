@@ -10,7 +10,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-public class FeedbackActivity extends AppCompatActivity implements View.OnClickListener {
+public class FeedbackActivity extends AppCompatActivity{
 
     private Button send_btn;
 
@@ -19,32 +19,18 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
 
-       send_btn = findViewById(R.id.ButtonSendFeedback);
-        send_btn.setOnClickListener(this);
+        ((Button) findViewById(R.id.ButtonSendFeedback)).setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                String to = ((EditText)findViewById(R.id.EditTextEmail)).getText().toString();
+                String sub = ((EditText)findViewById(R.id.EditTextSubject)).getText().toString();
+                String msg = ((EditText)findViewById(R.id.EditTextFeedbackBody)).getText().toString();
+                Intent mail = new Intent(Intent.ACTION_SEND);
+                mail.putExtra(Intent.EXTRA_EMAIL,new String[]{to});
+                mail.putExtra(Intent.EXTRA_SUBJECT, sub);
+                mail.putExtra(Intent.EXTRA_TEXT, msg);
+                mail.setType("message/rfc822");
+                startActivity(Intent.createChooser(mail, "Send email via:"));
+            }
+        });
     }
-
-    @Override
-    public void onClick(View v) {
-
-        switch (v.getId()) {
-            case R.id.ButtonSendFeedback:
-                // Do something
-                
-        }
-    }
-
-    final EditText nameField = (EditText) findViewById(R.id.EditTextName);
-    String name = nameField.getText().toString();
-
-    final EditText emailField = (EditText) findViewById(R.id.EditTextEmail);
-    String email = emailField.getText().toString();
-
-    final EditText feedbackField = (EditText) findViewById(R.id.EditTextFeedbackBody);
-    String feedback = feedbackField.getText().toString();
-
-    final Spinner feedbackSpinner = (Spinner) findViewById(R.id.SpinnerFeedbackType);
-    String feedbackType = feedbackSpinner.getSelectedItem().toString();
-
-    final CheckBox responseCheckbox = (CheckBox) findViewById(R.id.CheckBoxResponse);
-    boolean bRequiresResponse = responseCheckbox.isChecked();
 }

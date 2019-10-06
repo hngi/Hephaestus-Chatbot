@@ -29,24 +29,25 @@
             android:textSize="10pt" />
 
         <EditText
-            android:id="@+id/EditTextName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/feedbackname"
-            android:inputType="textPersonName"
-            android:padding="8dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/edittext_blck"/>
-
-        <EditText
             android:id="@+id/EditTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_blck"
             android:hint="@string/feedbackemail"
             android:inputType="textEmailAddress"
+
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/EditTextSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/feedbackSubject"
+            android:inputType="text|textEmailSubject"
             android:padding="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="8dp"
@@ -54,7 +55,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/edittext_blck"/>
 
-        <Spinner
+ <!--       <Spinner
             android:id="@+id/SpinnerFeedbackType"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -65,7 +66,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginRight="24dp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/edittext_blck"/>
+            android:background="@drawable/edittext_blck"/>-->
 
         <EditText
             android:id="@+id/EditTextFeedbackBody"
@@ -82,17 +83,17 @@
             android:layout_width="fill_parent">
         </EditText>
 
-        <CheckBox
-            android:id="@+id/CheckBoxResponse"
-            android:layout_height="wrap_content"
-            android:text="@string/feedbackresponse"
-            android:layout_width="fill_parent"
-            android:padding="8dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginBottom="16dp">
-        </CheckBox>
+<!--        <CheckBox-->
+<!--            android:id="@+id/CheckBoxResponse"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/feedbackresponse"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:padding="8dp"-->
+<!--            android:layout_marginLeft="24dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginRight="24dp"-->
+<!--            android:layout_marginBottom="16dp">-->
+<!--        </CheckBox>-->
 
         <Button
             android:id="@+id/ButtonSendFeedback"

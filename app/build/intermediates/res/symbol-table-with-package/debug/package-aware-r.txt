@@ -1179,10 +1179,9 @@ drawable user_bg_bubble
 id ALT
 id ButtonSendFeedback
 id CTRL
-id CheckBoxResponse
 id EditTextEmail
 id EditTextFeedbackBody
-id EditTextName
+id EditTextSubject
 id FUNCTION
 id Feedback
 id META
@@ -1190,7 +1189,6 @@ id SHIFT
 id SYM
 id ScrollView01
 id Settings
-id SpinnerFeedbackType
 id TextViewTitle
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1613,6 +1611,7 @@ string default_aidialog_title
 string expand_button_title
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string feedbackSubject
 string feedbackbody
 string feedbackbutton
 string feedbackemail
